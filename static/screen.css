@@ -2,9 +2,9 @@
  *  screen.css
  *  ~~~~~~~~~~
  * 
- *  :copyright: (c) 2010-2011 by Rafael Goncalves Martins
- *  :license: GPL-2
- */
+ *  :copyright: (c) 2004-2012 by GorSvet Team <info@gorsvet.kz>
+ *  :license: LGPL
+ *  */
 
 * {
     margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: #036;
+    color: #4AF;
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ ul, li {
 }
 
 #body h2 a {
-    color: #024;
+    color: #4AF;
 }
 
 #body h4 {
