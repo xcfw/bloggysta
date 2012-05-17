@@ -55,7 +55,7 @@
     {% if is_post(post.slug) and config.DISQUS -%}
     <a href="{{ url_for('views.content', slug=post.slug) }}#disqus_thread">Комментариев</a> -
     {%- endif %}
-    <a href="{{ url_for('views.content', slug=post.slug) }}">Ссылка</a> -
+    <a href="{{ url_for('views.content', slug=post.slug) }}">Ссылка на пост</a> -
     <a href="{{ url_for('views.source', slug=post.slug) }}">Исходный код</a>
 </div>
 
