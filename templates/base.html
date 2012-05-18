@@ -15,12 +15,12 @@
  <body>
   <div id="header">
   <h1>{{ config.TITLE_HTML }}</h1>
-    <h2>{{ config.TAGLINE }}</h2>
-      <ul>
-        <li><a href="{{ url_for('views.home') }}">Главная</a></li>
-        <li><a href="{{ url_for('views.post_list') }}">Статьи</a></li>
-        <li><a href="{{ url_for('views.content', slug='about') }}">О нас</a></li>
-      </ul>
+   <h2>{{ config.TAGLINE }}</h2>
+    <ul>
+     <li><a href="{{ url_for('views.home') }}">Главная</a></li>
+     <li><a href="{{ url_for('views.post_list') }}">Статьи</a></li>
+     <li><a href="{{ url_for('views.content', slug='about') }}">О нас</a></li>
+    </ul>
  </div>
   <div id="body">
 <!-- begin content -->
