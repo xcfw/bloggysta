@@ -62,13 +62,13 @@ ul, li {
 
 #body h2 {
     margin-top: 15px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 #body h2 a {
     color: #303030;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 #body h4 {
@@ -79,7 +79,7 @@ ul, li {
 
 #body p {
     margin: 16px auto;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
 }
 
