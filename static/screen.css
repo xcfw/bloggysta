@@ -2,9 +2,9 @@
  *  screen.css
  *  ~~~~~~~~~~
  * 
- *  :copyright: (c) 2004-2012 by GorSvet Team <info@gorsvet.kz>
- *  :license: LGPL
- *  */
+ *  :copyright: (c) 2010-2012 by GorSvet Team
+ *  :license: Creative Common with Attributes
+ */
 
 * {
     margin: 0;
@@ -13,11 +13,12 @@
 
 body {
     font-family: "Georgia", verdana, sans-serif;
-    background-color: #FFF;
+    background-color: #FCFCFC;
+    color: #303030;
 }
 
 a {
-    color: #4AF;
+    color: #3e7ba3;
     text-decoration: none;
 }
 
@@ -61,20 +62,30 @@ ul, li {
 
 #body h2 {
     margin-top: 15px;
+    font-size: 1.3em;
     margin-bottom: 10px;
 }
 
 #body h2 a {
-    color: #4AF;
+    color: #303030;
+    font-size: 1.3em;
 }
 
 #body h4 {
     margin-top: 15px;
     margin-bottom: 12px;
+    font-size: 1.2em;
 }
 
 #body p {
     margin: 16px auto;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#body pre {
+    font-size: 1.1em;
+    color: #265e00;
 }
 
 #body ul, #body li{
